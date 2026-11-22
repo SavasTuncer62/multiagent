@@ -1,0 +1,17 @@
+# Google Colab (Python 3, PyTorch with CUDA preinstalled)
+torch
+segmentation_models_pytorch==0.5.0
+transformers==5.21.0
+accelerate
+qwen-vl-utils
+albumentations
+opencv-python-headless
+pillow
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+# SAM2: pip install -e from https://github.com/facebookresearch/sam2 (checkpoint sam2.1_hiera_small.pt)
+# Optional, only for notebooks/additional_analyses/A1_wider_grid_and_nnunet.ipynb
+# nnunetv2==2.8.1
